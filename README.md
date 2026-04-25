@@ -14,6 +14,7 @@ Standard YOLO processes every frame at full cost. EG-YOLO uses the DVS event cam
 | YOLOv8-Nano (baseline) | 65.0ms | 12.6MB | 6,500mJ | — |
 | MobileNetV3-Small | 49.5ms | 10.2MB | 4,951mJ | -24% |
 | EG-YOLO + DVS Gate | 57.7ms* | 6.3MB | 2,112mJ | -67.5% |
+| mAP@0.5 (COCO persons) | 0.517 | — | 0.517 |
 
 *Latency when inference runs. 67.5% of frames skipped by DVS gate.
 
