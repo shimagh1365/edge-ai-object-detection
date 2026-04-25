@@ -1,0 +1,6 @@
+imec_env/
+__pycache__/
+*.pt
+*.onnx
+*.pyc
+.DS_Store
